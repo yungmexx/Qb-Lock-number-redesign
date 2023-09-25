@@ -74,14 +74,13 @@ function init() {
 
 
 if (isTextVisible) {
-  
-   const text = key_to_press;
+    const text = key_to_press;
     ctx.font = "90px Akrobat Black";
     const textMetrics = ctx.measureText(text);
     const textWidth = textMetrics.width;
     const bgSize = 90; // Size of the square background
     const borderRadius = 8; // Radius for rounded corners
-	
+
     const bgX = (W - bgSize) / 2;
     const bgY = (H - bgSize) / 2 + 15; // Move the background upward by changing this value
 
@@ -103,15 +102,26 @@ if (isTextVisible) {
     ctx.closePath();
     ctx.fill();
 
-    ctx.fillStyle = '#000000';
-    ctx.fillText(text, textX, textY + 117);
+    // Shadow properties
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.3)'; // Shadow color
+    ctx.shadowBlur = 5; // Shadow blur radius
+    ctx.shadowOffsetX = 3; // Horizontal shadow offset
+    ctx.shadowOffsetY = 3; // Vertical shadow offset
 
-    } else {
+    ctx.fillStyle = '#000000';
+    ctx.fillText(text, textX, textY + 110);
+
+    // Remove the shadow after drawing the text
+    ctx.shadowColor = 'transparent';
+    ctx.shadowBlur = 0;
+    ctx.shadowOffsetX = 0;
+    ctx.shadowOffsetY = 0;
+} else {
     ctx.shadowColor = 'transparent';
     ctx.fillStyle = 'transparent';
     ctx.shadowColor = 'transparent';
     ctx.fillStyle = 'transparent';
-    }
+}
 }
 
 
