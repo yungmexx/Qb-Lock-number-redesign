@@ -31,7 +31,7 @@ body {
 
 .spacebar-wrapper {
     position: absolute;
-    top: 55%;
+    top: 54.5%;
     left: 50.45%;
     transform: translateY(-50%) translateX(-50%);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
