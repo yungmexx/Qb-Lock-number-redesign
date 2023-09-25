@@ -1,7 +1,7 @@
 # qb-lock
 
 
-![image](https://github.com/yungmexx/Qb-Lock-number-redesign/assets/113365369/4e0aa5de-2e08-46aa-bbca-4ca85778c6e4)
+![image](https://github.com/yungmexx/Qb-Lock-number-redesign/assets/113365369/08015054-51ce-470c-b416-ddb757227e41)
 ![image](https://github.com/yungmexx/Qb-Lock-number-redesign/assets/113365369/1c959892-5cd9-4854-8edc-391c50f42d34)
 ![image](https://github.com/yungmexx/Qb-Lock-number-redesign/assets/113365369/6fbef68a-9893-4ca4-bb2f-6eb40c23d6df)
 
