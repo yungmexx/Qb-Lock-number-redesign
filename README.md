@@ -3,7 +3,8 @@
 
 ![image](https://github.com/yungmexx/Qb-Lock-number-redesign/assets/113365369/eeae6ea5-cdfe-4383-80e0-d645457d2e86)
 ![image](https://github.com/yungmexx/Qb-Lock-number-redesign/assets/113365369/1c959892-5cd9-4854-8edc-391c50f42d34)
-![Uploading image.png…]()
+![image](https://github.com/yungmexx/Qb-Lock-number-redesign/assets/113365369/6fbef68a-9893-4ca4-bb2f-6eb40c23d6df)
+
 
 
 # Template
