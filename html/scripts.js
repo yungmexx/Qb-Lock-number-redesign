@@ -86,7 +86,7 @@ if (isTextVisible) {
     const bgY = (H - bgSize) / 2 + 15; // Move the background upward by changing this value
 
     const textX = (W - textWidth) / 2;
-    const textY = (H - bgSize) / 2 - 25; // Move the text upward by changing this value
+    const textY = (H - bgSize) / 2 - 20; // Move the text upward by changing this value (HIGHER = HIGHER ON THE Y AXIS)
 
     // BACKGROUND
     ctx.fillStyle = "#ffffff";
