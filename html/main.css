@@ -47,7 +47,7 @@ body {
 
 .triangle {
     position: fixed;
-    margin-top: -35px;
+    margin-top: -45px;
     margin-left: -23px;
     animation: bounce 0.4s ease infinite alternate;
     border-left: 1.5vh solid transparent;
