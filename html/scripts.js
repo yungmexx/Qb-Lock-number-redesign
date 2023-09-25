@@ -83,10 +83,10 @@ if (isTextVisible) {
     const borderRadius = 8; // Radius for rounded corners
 
     const bgX = (W - bgSize) / 2;
-    const bgY = (H - bgSize) / 2 + 20;
+    const bgY = (H - bgSize) / 2 + 15; // Move the background upward by changing this value
 
     const textX = (W - textWidth) / 2;
-    const textY = (H - bgSize) / 2 - 20;
+    const textY = (H - bgSize) / 2 - 25; // Move the text upward by changing this value
 
     // BACKGROUND
     ctx.fillStyle = "#ffffff";
