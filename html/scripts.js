@@ -75,7 +75,7 @@ function init() {
 
 if (isTextVisible) {
     const text = key_to_press;
-    ctx.font = "90px Akrobat Black";
+    ctx.font = "80px Akrobat Black";
     const textMetrics = ctx.measureText(text);
     const textWidth = textMetrics.width;
     const bgSize = 90; // Size of the square background
