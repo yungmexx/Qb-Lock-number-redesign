@@ -2,8 +2,9 @@
 
 
 ![image](https://github.com/yungmexx/Qb-Lock-number-redesign/assets/113365369/141003e1-3a5d-45a9-b87c-80bd969469a8)
-![image](https://github.com/yungmexx/Qb-Lock-number-redesign/assets/113365369/1c959892-5cd9-4854-8edc-391c50f42d34)
-![image](https://github.com/yungmexx/Qb-Lock-number-redesign/assets/113365369/6fbef68a-9893-4ca4-bb2f-6eb40c23d6df)
+![image](https://github.com/yungmexx/Qb-Lock-number-redesign/assets/113365369/9a665a20-9aa6-4111-a161-7e2a273a45d7)
+![image](https://github.com/yungmexx/Qb-Lock-number-redesign/assets/113365369/25a8ff6b-f23f-4175-a76b-04d9a6abc1ed)
+
 
 
 
