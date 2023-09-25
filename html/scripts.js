@@ -75,13 +75,13 @@ function init() {
 
 if (isTextVisible) {
   
-    const text = key_to_press;
+   const text = key_to_press;
     ctx.font = "90px Akrobat Black";
     const textMetrics = ctx.measureText(text);
     const textWidth = textMetrics.width;
     const bgSize = 90; // Size of the square background
     const borderRadius = 8; // Radius for rounded corners
-
+	
     const bgX = (W - bgSize) / 2;
     const bgY = (H - bgSize) / 2 + 15; // Move the background upward by changing this value
 
