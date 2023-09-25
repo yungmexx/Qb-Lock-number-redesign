@@ -259,7 +259,6 @@ function endGame(status) {
 
 
         isTextVisible = true;
-        init();
 
 
         startGame(time)
