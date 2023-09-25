@@ -1,0 +1,123 @@
+
+@import url('https://fonts.cdnfonts.com/css/akrobat');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+body {
+  font-family: "Akrobat"; font-size: 16px; text-rendering: optimizeLegibility; font-weight: initial;
+  overflow-x: hidden; overflow: hidden;
+  background: transparent;
+  user-select: none; -webkit-user-drag: none;
+}
+
+
+
+#canvas {
+    position: absolute;
+    margin: 50px auto;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    overflow: visible;
+    height: 185px;
+    width: 185px;
+    color:#822ff6
+}
+
+.spacebar-wrapper {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.spacebar {
+    width: 8.0vh;
+    height: 8.0vh;
+    left: 56.0%;
+
+}
+
+
+
+
+.triangle {
+    position: fixed;
+    margin-top: -35px;
+    margin-left: -23px;
+    animation: bounce 0.4s ease infinite alternate;
+    border-left: 2.2vh solid transparent;
+    border-right: 2.2vh solid transparent;
+    border-top: 2.0vh solid rgb(0, 0, 0);
+}
+
+.inner-triangle {
+    border-left: 1.8vh solid transparent;
+    border-right: 1.8vh solid transparent;
+    border-top: 1.5vh solid rgba(255, 255, 255, 0.836); 
+    position: absolute;
+    margin-top: -12px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
+}
+
+
+
+.lock {
+    position: absolute;
+    top: 51.8%;
+    left: 49.0%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 48px;
+    color: #ffffff;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition: font-size 0.8s;
+    animation: wiggle 0.4s ease infinite alternate;
+}
+
+.unlock {
+    position: absolute;
+    top: 51.9%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 48px;
+    color: #ffffff;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition: font-size 0.8s;
+    animation: wiggle 0.4s ease infinite alternate;
+}
+
+
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
