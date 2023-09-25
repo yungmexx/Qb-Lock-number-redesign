@@ -32,7 +32,7 @@ body {
 .spacebar-wrapper {
     position: absolute;
     top: 55%;
-    left: 50%;
+    left: 50.45%;
     transform: translateY(-50%) translateX(-50%);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -49,20 +49,20 @@ body {
 
 .triangle {
     position: fixed;
-    margin-top: -35px;
+    margin-top: -25px;
     margin-left: -23px;
     animation: bounce 0.4s ease infinite alternate;
-    border-left: 2.2vh solid transparent;
-    border-right: 2.2vh solid transparent;
-    border-top: 2.0vh solid rgb(0, 0, 0);
+    border-left: 1.5vh solid transparent;
+    border-right: 1.5vh solid transparent;
+    border-top: 1.5vh solid rgb(0, 0, 0);
 }
 
 .inner-triangle {
-    border-left: 1.8vh solid transparent;
-    border-right: 1.8vh solid transparent;
-    border-top: 1.5vh solid rgba(255, 255, 255, 0.836); 
+    border-left: 1.0vh solid transparent;
+    border-right: 1.0vh solid transparent;
+    border-top: 1.0vh solid rgba(255, 255, 255, 0.836); 
     position: absolute;
-    margin-top: -12px;
+    margin-top: -8.4px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
