@@ -24,8 +24,8 @@ body {
     left:50%;
     transform: translate(-50%,-50%);
     overflow: visible;
-    height: 235px;
-    width: 235px;
+    height: 215px;
+    width: 215px;
     color:#822ff6
 }
 
@@ -48,7 +48,7 @@ body {
 .triangle {
     position: fixed;
     margin-top: -45px;
-    margin-left: -23px;
+    margin-left: -24px;
     animation: bounce 0.4s ease infinite alternate;
     border-left: 1.5vh solid transparent;
     border-right: 1.5vh solid transparent;
